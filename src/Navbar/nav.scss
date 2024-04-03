@@ -23,7 +23,8 @@ a{
         align-items: center;
         font-size: 18px;
         gap: 50px;
-        position: relative;
+        position: sticky;
+        z-index: 999;
     }
     .logo{
         padding: 10px 5px;

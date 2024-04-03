@@ -38,7 +38,6 @@ import 'swiper/css';
       <img src={promo} alt="" />
       </SwiperSlide>
     </Swiper>
-
     </div>
     </>
   )
