@@ -19,8 +19,9 @@ span:nth-of-type(2){
 }
 .s-slider{
     margin-top: 3rem;
-    padding-left: 7rem;
-    width: 100%;
+    gap: 20px;
+    width: calc(100px + 100vw);
+    // background-color: red;
 }
 
 img{
@@ -36,15 +37,17 @@ img{
 @media screen and (max-width:480px) {
     .second{
         position: relative;
-        top: -5rem !important;
+        top: 5rem !important;
         transform: scale(0.7);
         padding: 1px 10px 10px;
         width: 100%;
     
     .s-slider{
-        position: relative; 
-        right: 5rem;
-        transform: scale(1.2); 
+        position: relative;
+        // display: flex;
+        // justify-content: center;
+        left: -10rem;
+        transform: scale(1.2);
     }
      img{
         width: 6rem;
