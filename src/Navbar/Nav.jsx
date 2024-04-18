@@ -4,10 +4,6 @@ import {Link} from 'react-router-dom'
 const Nav = () => {
   const nv1=[
     {
-      name:"Home",
-      link:"home"
-    },
-    {
       name:"Shop",
       link:"shop"
     },
@@ -23,10 +19,6 @@ const Nav = () => {
   ]
   const nv2=[
     {
-      name:"Shop",
-      link:"shops"
-    },
-    {
       name:"About",
       link:"about"
     },
@@ -41,7 +33,7 @@ const Nav = () => {
            </div>
 
             <div className='logo'>
-              <Link><img src={brand} height={50}/></Link>
+              <Link to="/"><img src={brand} height={50}/></Link>
             </div>
 
            <div className="nav_link2">

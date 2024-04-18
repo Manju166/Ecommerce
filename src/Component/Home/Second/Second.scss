@@ -21,7 +21,6 @@ span:nth-of-type(2){
     margin-top: 3rem;
     gap: 20px;
     width: calc(100px + 100vw);
-    // background-color: red;
 }
 
 img{
@@ -44,8 +43,6 @@ img{
     
     .s-slider{
         position: relative;
-        // display: flex;
-        // justify-content: center;
         left: -10rem;
         transform: scale(1.2);
     }
