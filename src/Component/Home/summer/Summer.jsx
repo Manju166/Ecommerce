@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import summerData from '../../Data/summerData';
  const Summer = () => {
   return (
@@ -11,12 +10,8 @@ import summerData from '../../Data/summerData';
             <img src={item.image} alt="" />
             <div className="description">
                 <h4>{item.pname}</h4>
-                <div className="stars">
-                ⭐⭐⭐⭐⭐
-            </div>
                 <h4>{item.price}</h4>
                 </div>
-                <Link className='cart'>{item.cicon}</Link>
             </div>
         ))}
             
