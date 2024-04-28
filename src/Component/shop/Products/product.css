@@ -1,0 +1,80 @@
+.pcontent {
+  background-image: url("../../../assets/shop.png");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.product {
+  height: 25vh;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.pSearch {
+  display: flex;
+  justify-content: space-around;
+  height: 15vh;
+  align-items: center;
+}
+
+.pro-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pro-container .ppro {
+  width: calc(150px + 6vw);
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 20PX;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+.pro-container .ppro .ppro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.pro-container .ppro img {
+  width: calc(100px + 4vw);
+  border-radius: 20PX;
+  height: calc(100px + 5vh);
+  margin-left: 25px;
+  margin-top: -30px;
+}
+.pro-container .ppro .desc {
+  text-align: start;
+  padding: 10px 0;
+}
+.pro-container .ppro .rating {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+.pro-container .ppro .carts {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .ppro {
+    width: 50vw;
+    transform: scale(0.7);
+  }
+}/*# sourceMappingURL=product.css.map */

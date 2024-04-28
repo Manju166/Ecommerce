@@ -33,175 +33,262 @@ const allData = [
     {
         image:c1,
         pname:"Random print Crop Top For women & Girls",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"printTop",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:kurti,
         pname:"Kurti Sets",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"kurti",
+        color:"red",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:onepiece,
         pname:"One Piece Summer Dresses",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"onepiece",
+        color:"yellow",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:west,
         pname:"Western Midi Dress ",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"western",
+        color:"pink",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:saree,
         pname:"Colourful Saree collections",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"saree",
+        color:"red",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:abst,
         pname:"Colorful Crop Top For women & Girls",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"cropTop",
+        color:"black",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:pant,
         pname:"Girls Pants",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"pant",
+        color:"blue",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:shirt,
         pname:"Girls T-shirts",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"vest",
+        color:"black",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:leafycrop,
         pname:"Random Leafy Crop Top For women & Girls",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"leafyTop",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:kurti2,
         pname:"Kurti Sets",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"kurti",
+        color:"purple",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:onepiece2,
         pname:"One Piece Summer Dresses",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"onepiece",
+        color:"green",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:west2,
         pname:"Western Midi Dress ",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"western",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:saree2,
         pname:"Colourful Saree collections",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"saree",
+        color:"red",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:abst2,
         pname:"Colorful Crop Top For women & Girls",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"printTop",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:pant2,
         pname:"Girls Pants",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"pant",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:shirt2,
         pname:"Girls T-shirts",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"vest",
+        color:"pink",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:onepiece3,
         pname:"one piece",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"onepiece",
+        color:"black",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:kurti3,
         pname:"kurtis",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"kurtis",
+        color:"yellow",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:abst3,
         pname:"Colourful tops",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"printTop",
+        color:"blue",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:shirt3,
         pname:"Girls T-shirts",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"vest",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:kurti5,
         pname:"kurtis",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"kurtis",
+        color:"yellow",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:saree3,
         pname:"Saree",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"saree",
+        color:"red",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:leafycrop3,
         pname:"Girls T-shirts",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"leafyTop",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:kurti4,
         pname:"kurtis",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"kurti",
+        color:"pink",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:saree4,
         pname:"Saree",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"saree",
+        color:"blue",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:abst4,
         pname:"Crop Top For women & Girls",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"printTop",
+        color:"blue",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:pant3,
         pname:"Girls Pants",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"pant",
+        color:"white",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:shirt4,
         pname:"Girls T-shirts",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"vest",
+        color:"yellow",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
     {
         image:onepiece4,
         pname:"one piece",
-        price:<><FaRupeeSign/>799.00</>,
+        category:"onepiece",
+        color:"blue",
+        prevprice:<><FaRupeeSign/>999.00</>,
+        newprice:"899",
         cicon:<FaShoppingCart/>
     },
 

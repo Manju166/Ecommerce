@@ -1,0 +1,25 @@
+.blogcont {
+  margin-top: 3rem;
+  background-color: rgb(225, 216, 216);
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.blog .blog-box img {
+  width: calc(80px + 20vw);
+  height: calc(50px + 30vh);
+}
+.blog .blog-boxs {
+  width: calc(100px + 50vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=blog.css.map */

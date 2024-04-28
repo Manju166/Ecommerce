@@ -23,22 +23,22 @@ const pData=[
         image:west,
         pname:"Western Midi Dress ",
     },
-    {
-        image:saree,
-        pname:"Colourful Saree collections",
-    },
-    {
-        image:abst,
-        pname:"Colorful Crop Top For women & Girls",
-    },
-    {
-        image:pant,
-        pname:"Girls Pants",
-    },
-    {
-        image:shirt,
-        pname:"Girls T-shirts",
-    },
+    // {
+    //     image:saree,
+    //     pname:"Colourful Saree collections",
+    // },
+    // {
+    //     image:abst,
+    //     pname:"Colorful Crop Top For women & Girls",
+    // },
+    // {
+    //     image:pant,
+    //     pname:"Girls Pants",
+    // },
+    // {
+    //     image:shirt,
+    //     pname:"Girls T-shirts",
+    // },
 
 ]
 export default pData;

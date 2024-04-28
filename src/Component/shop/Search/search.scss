@@ -1,0 +1,38 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  z-index: 999;
+}
+.search{
+    .search-input{
+        height: 5vh;
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+}
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 28px;
+    gap: 20px;
+}
+@media screen and (max-width:480px) {
+  nav{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    .search{
+      transform: scale(0.8);
+
+    }
+    .profile-container{
+      transform: scale(0.8);
+      gap: 10px;
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+.color{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    .color-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .colorbtn{
+            width: calc(50px + 5vw);
+            padding: 5px;
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.recom{
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+    .rec-btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        .btns{
+            width: 5vw;
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .recom{
+        width: 100%;
+        .rec-btn{
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+            .btns{
+                align-items: start;
+                text-align: start;
+                padding: 5px 40px 0px 0px;
+                font-size: 10px;
+            }
+        }
+    }
+    }

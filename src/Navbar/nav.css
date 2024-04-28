@@ -11,11 +11,13 @@ a {
 .nav_wrapper {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 60px;
   width: 100%;
   position: relative;
   font-family: sans-serif;
   background: transparent;
+  padding-top: 20px;
 }
 .nav_wrapper .nav_link1 {
   display: flex;
@@ -24,7 +26,8 @@ a {
   align-items: center;
   font-size: 18px;
   gap: 50px;
-  position: relative;
+  position: sticky;
+  z-index: 999;
 }
 .nav_wrapper .logo {
   padding: 10px 5px;
